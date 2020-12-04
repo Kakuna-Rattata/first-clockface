@@ -1,0 +1,12 @@
+<svg>
+  <gradientRect x="0" y="0" width="100%" height="100%"
+    gradient-type="radial"
+    gradient-x1="50%" gradient-y1="50%"
+    gradient-x2="50%+150" gradient-y2="50%+150"
+    gradient-color1="#8fe2c9"
+    gradient-color2="#88baac">
+    <image id="bg-img" href="sakura-background.png" />
+    <text id="time-shadow-text-tag" class="shadowText"/>
+    <text id="time-text-tag" class="clockText" />
+  </gradientRect>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "name": "first-clockface",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0",
+    "@fitbit/sdk-cli": "^1.7.3"
+  },
+  "fitbit": {
+    "appUUID": "3ac284c3-2fff-4a09-b524-84dbed585ab8",
+    "appType": "clockface",
+    "appDisplayName": "First Clockface",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}

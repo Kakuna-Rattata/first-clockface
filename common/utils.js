@@ -1,8 +1,12 @@
 // Add zero in front of numbers < 10
-export function zeroPad(i) {
-  if (i < 10) {
-    i = '0' + i;
+export const zeroPad = value => {
+  if (value < 10) {
+    value = '0' + value;
   }
 
-  return i;
-}
+  return value;
+};
+
+// Add commas to numeric string values
+export const formatNumericStrings = value =>
+  value && `${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',');

@@ -11,8 +11,8 @@
 
     <image id="background-img" href="sakura-background.png" />
 
-    <text id="time-shadow-text-tag" class="shadowText" text-length="28" />
-    <text id="time-text-tag" class="clockText" text-length="28" />
+    <!-- <text id="time-shadow-text-tag" class="shadowText" text-length="5" /> -->
+    <text id="time-text-tag" class="clockText" text-length="5" />
 
     <!-- TODO get icons with transparent background -->
     <image id="steps-img" href="steps-icon.png" />

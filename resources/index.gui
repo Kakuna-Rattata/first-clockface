@@ -3,10 +3,22 @@
     gradient-type="radial"
     gradient-x1="50%" gradient-y1="50%"
     gradient-x2="50%+150" gradient-y2="50%+150"
+    gradient-color1="#484848"
+    gradient-color2="black">
+    <!-- TODO: day theme colour variation
     gradient-color1="#8fe2c9"
-    gradient-color2="#88baac">
-    <image id="bg-img" href="sakura-background.png" />
-    <text id="time-shadow-text-tag" class="shadowText"/>
-    <text id="time-text-tag" class="clockText" />
+    gradient-color2="#88baac" -->
+
+    <image id="background-img" href="sakura-background.png" />
+
+    <text id="time-shadow-text-tag" class="shadowText" text-length="28" />
+    <text id="time-text-tag" class="clockText" text-length="28" />
+
+    <!-- TODO get icons with transparent background -->
+    <image id="steps-img" href="steps-icon.png" />
+    <text id="steps-text-tag" class="dataText" text-length="7" />
+
+    <image id="heart-img" href="heart-icon.png" />
+    <text id="bpm-text-tag" class="dataText" text-length="3" />
   </gradientRect>
 </svg>

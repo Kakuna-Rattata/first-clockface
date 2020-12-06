@@ -9,16 +9,15 @@
     gradient-color1="#8fe2c9"
     gradient-color2="#88baac" -->
 
-    <image id="background-img" href="sakura-background.png" />
+    <image id="background-img" href="images/sakura-background.png" />
 
     <!-- <text id="time-shadow-text-tag" class="shadowText" text-length="5" /> -->
     <text id="time-text-tag" class="clockText" text-length="5" />
 
-    <!-- TODO get icons with transparent background -->
-    <image id="steps-img" href="steps-icon.png" />
+    <image id="steps-img" href="images/steps-icon.png" class="icon" />
     <text id="steps-text-tag" class="dataText" text-length="7" />
 
-    <image id="heart-img" href="heart-icon.png" />
+    <image id="heart-img" href="images/heart-icon.png" class="icon" />
     <text id="bpm-text-tag" class="dataText" text-length="3" />
   </gradientRect>
 </svg>

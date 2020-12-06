@@ -14,37 +14,6 @@
   fill: black;
 }
 
-#background-img {
-  x: 6%;
-  y: 42%;
-}
-
-#heart-img {
-  fill: #9cd6c5;
-  width: 15%;
-  height: 15%;
-  x: 5%;
-  y: 70%;
-}
-
-#steps-img {
-  fill: #9cd6c5;
-  width: 15%;
-  height: 15%;
-  x: 5%;
-  y: 52%;
-}
-
-#bpm-text-tag {
-  x: 25%;
-  y: 83%;
-}
-
-#steps-text-tag {
-  x: 25%;
-  y: 65%;
-}
-
 .dataText {
   fill: white;
   font-size: 46;
@@ -53,18 +22,48 @@
 
 .clockText {
   fill: #9cd6c5;
-  font-size: 108;
+  font-size: 104;
   font-family: Colfax;
-  text-align: center;
   x: 2%;
-  y: 42%;
+  y: 40%;
 }
 
 .shadowText {
   fill: white;
   opacity: 0.4;
-  font-size: 110;
+  font-size: 106;
   font-family: Colfax;
   x: 1%;
+  y: 40%;
+}
+
+#background-img {
+  x: 6%;
   y: 42%;
+}
+
+#steps-img {
+  fill: white;
+  width: 15%;
+  height: 15%;
+  x: 5%;
+  y: 48%;
+}
+
+#heart-img {
+  fill: #ff49a4;
+  width: 15%;
+  height: 15%;
+  x: 5%;
+  y: 66%;
+}
+
+#steps-text-tag {
+  x: 25%;
+  y: 61%;
+}
+
+#bpm-text-tag {
+  x: 25%;
+  y: 79%;
 }

@@ -57,14 +57,14 @@
   font-family: Colfax;
   text-align: center;
   x: 2%;
-  y: 45%;
+  y: 42%;
 }
 
 .shadowText {
   fill: white;
   opacity: 0.4;
-  font-size: 112;
+  font-size: 110;
   font-family: Colfax;
   x: 1%;
-  y: 46%;
+  y: 42%;
 }
